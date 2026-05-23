@@ -18,7 +18,7 @@ namespace OOP_Project_2.Models
 
         public string Category { get; set; }
 
-        public List<AddOn> AddOns { get; set; }
+        public List<AddOn> AddOns { get; set; } = new List<AddOn>();
      
     }
 }
